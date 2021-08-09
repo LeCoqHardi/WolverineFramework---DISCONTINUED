@@ -6,7 +6,7 @@
 
 sudo clear 
 tput setaf 1
-cat 
+cat logo
 tput setaf 7
 
 echo "---------------------------------"
