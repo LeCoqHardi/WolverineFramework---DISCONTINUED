@@ -10,7 +10,7 @@ it uses this packages :
         ettercap-text-only
         hping3
         Medusa
-        Patator
+        Patator (not available in Arch)
         nmap
         Metasploit
         Phoneinfoga (intégré dans le dossier scripts)
