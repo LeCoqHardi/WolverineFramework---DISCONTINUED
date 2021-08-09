@@ -2,7 +2,6 @@
 
 Made by LeCoqHardi
 
-Don't want to translate all the french README in english now 
 
 This script is made to make KaliLinux easyer
 
@@ -20,3 +19,4 @@ it uses this packages :
         
         
 It's opensource, have fun !
+When MacChanger asks you "Do you want to change your MAC Address automatically?" during install, choose "no"
