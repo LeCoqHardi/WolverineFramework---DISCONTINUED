@@ -1,12 +1,13 @@
 #!/bin/bash
 
-
+#english version
 #This script allow you to use Kali Linux basic tools easily, it's very easy to understand, and graphical.
 #Made by LeCoqHardi : https://www.lecoqhardi.xyz // https://twitter.com/LeCoqHardi__
 
 sudo clear 
 tput setaf 1
-cat logo
+cat 
+tput setaf 7
 
 echo "---------------------------------"
 echo "What hacking process do you wanna do ?"
@@ -37,7 +38,9 @@ then
 	echo "You wanna perform a Man in the Middle attack, lauching Ettercap..."
 	echo "----------------------------------------------------------------"
 	clear
+	tput setaf 1
 	cat logo
+	tput setaf 7
 	echo "----------------------------------------------------------------"
 	./Scripts/Ettercap.sh
 elif [ $Reponse = "2" ]
@@ -53,7 +56,9 @@ then
 	echo "You wanna perform a Bruteforce Attack, launching Medusa and Patator..."
 	echo "----------------------------------------------------------------"
 	clear
+	tput setaf 1
 	cat logo
+	tput setaf 7
 	echo "----------------------------------------------------------------"
 	./Scripts/BruteforceChoice.sh
 elif [ $Reponse = 4 ]
@@ -61,29 +66,39 @@ then
 	echo "You want to scan a network, launching nmap..."
 	echo "----------------------------------------------------------------"
 	clear
+	tput setaf 1
 	cat logo
+	tput setaf 7
 	echo "----------------------------------------------------------------"
 	./Scripts/Nmap.sh
 elif [ $Reponse = 5 ]
 then
 	clear
+	tput setaf 1
 	cat logo
+	tput setaf 7
 	echo "----------------------------------------------------------------"
 	echo "Launching Metasploit..."
 	service postgresql start
 	clear
+	tput setaf 1
 	cat logo
+	tput setaf 7
 	echo "----------------------------------------------------------------"
 	msfconsole
 elif [ $Reponse = 6 ]
 then
 	clear
+	tput setaf 1
 	cat logo
+	tput setaf 7
 	echo "----------------------------------------------------------------"
 	echo "Enter the phone number with the country code (France = +336...)"
 	read numero
 	clear
+	tput setaf 1
 	cat logo
+	tput setaf 7
 	echo "----------------------------------------------------------------"
 	echo "Launching PhoneInfoga..."
 	./Scripts/phoneinfoga scan -n $numero
@@ -92,7 +107,9 @@ then
 	echo "You want to scan Wordpress vulnerabilities, launching WPScan..."
 	echo "----------------------------------------------------------------"
 	clear
+	tput setaf 1
 	cat logo
+	tput setaf 7
 	echo "----------------------------------------------------------------"
 	./Scripts/WPScan.sh
 elif [ $Reponse = 8 ]
@@ -100,7 +117,9 @@ then
 	echo "You want to change your MAC Address, launching MacChanger..."
 	echo "---------------------------------------------------------------"
 	clear
+	tput setaf 1
 	cat logo
+	tput setaf 7
 	echo "---------------------------------------------------------------"
 	./Scripts/MacChanger.sh
 elif [ $Reponse = X ]
