@@ -27,3 +27,4 @@ else
 fi
 
 sudo rm -r temp
+echo ""
