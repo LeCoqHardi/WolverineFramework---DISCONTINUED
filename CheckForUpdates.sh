@@ -5,7 +5,7 @@ echo "==============================================="
 
 mkdir temp
 cd temp
-wget https://raw.githubusercontent.com/LeCoqHardi/WolverineFramework_FR/main/Wolverine.sh
+wget https://raw.githubusercontent.com/LeCoqHardi/WolverineFramework_EN/main/Wolverine.sh
 mv Wolverine.sh WolverineCompare.sh
 cd ..
 cp Wolverine.sh temp
