@@ -53,5 +53,5 @@ rm msfinstall
 echo "----------------------"
 echo "Preparing all scripts..."
 echo "----------------------"
-chmod a+x Scripts/* && chmod a+x Wolverine.sh
+chmod a+x Scripts/* && chmod a+x *
 
