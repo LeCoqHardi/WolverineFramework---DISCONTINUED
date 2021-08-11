@@ -31,6 +31,7 @@ else
     git clone https://github.com/LeCoqHardi/WolverineFramework_FR
     cd WolverineFramework_FR/
     $SHELL
+    echo "Update complete."
 fi
 
 echo ""
