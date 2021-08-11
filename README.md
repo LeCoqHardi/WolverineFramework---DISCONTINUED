@@ -1,3 +1,5 @@
+<img src="assets/Banner.png">
+
 # WolverineFramework
 
 WolverineFramework is a little and very complete Script allowing you to install and use basic Cybersecurity tools ! The Script is constantly updated, so don't forget to run the "CheckForUpdates.sh" script frequently !
