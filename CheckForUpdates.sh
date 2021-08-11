@@ -22,9 +22,15 @@ echo "==============================================="
 
 if cmp -s "$file1" "$file2"; then
     printf "No Updates Available."
+    sudo rm -r temp/
 else
-    printf "An Update is Available, please re clone the repository."
+    printf "An Update is Available, please wait..."
+    echo ""
+    cd ..
+    sudo rm -r WolverineFramework_FR/
+    git clone https://github.com/LeCoqHardi/WolverineFramework_FR
+    cd WolverineFramework_FR/
+    $SHELL
 fi
 
-sudo rm -r temp
 echo ""
