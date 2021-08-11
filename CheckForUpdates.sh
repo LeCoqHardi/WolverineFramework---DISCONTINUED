@@ -30,8 +30,10 @@ else
     sudo rm -r WolverineFramework_FR/
     git clone https://github.com/LeCoqHardi/WolverineFramework_FR
     cd WolverineFramework_FR/
-    $SHELL
+    echo ""
     echo "Update complete."
+    $SHELL
+    
 fi
 
 echo ""
