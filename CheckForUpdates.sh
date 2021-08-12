@@ -34,9 +34,9 @@ else
         echo ""
         echo "Updating, please wait..."
         cd ..
-        sudo rm -r WolverineFramework_FR/
-        git clone https://github.com/LeCoqHardi/WolverineFramework_FR
-        cd WolverineFramework_FR/
+        sudo rm -r WolverineFramework_EN/
+        git clone https://github.com/LeCoqHardi/WolverineFramework_EN
+        cd WolverineFramework_EN/
         echo ""
         echo "Update complete."
         chmod a+x *.sh && chmod a+x Scripts/*
