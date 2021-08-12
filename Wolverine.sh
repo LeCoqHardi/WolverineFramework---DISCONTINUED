@@ -29,9 +29,11 @@ echo "7) Scan wordpress vulnerabilities"
 echo ""
 echo "8) Hide your MAC Adress with a fake MAC Adress"
 echo ""
+echo "9) Take a Gaming Break"
+echo ""
 echo "X) Quit Wolverine.sh"
 echo "---------------------------------"
-echo "Enter your choice here (1, 2, 3, 4, 5, 6, 7 or 8 and X to close)"
+echo "Enter your choice here (1, 2, 3, 4, 5, 6, 7, 8 or 9 and X to close)"
 read Reponse
 if [ $Reponse = "1" ]
 then
@@ -122,6 +124,16 @@ then
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	./Scripts/MacChanger.sh
+elif [ $Reponse = 9 ]
+then
+	echo "You want to take a gaming break..."
+	echo "---------------------------------------------------------------"
+	clear
+	tput setaf 1
+	cat logo
+	tput setaf 7
+	echo "---------------------------------------------------------------"
+	./Scripts/Games.sh
 elif [ $Reponse = X ]
 then
 	exit
