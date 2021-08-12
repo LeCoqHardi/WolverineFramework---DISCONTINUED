@@ -20,6 +20,10 @@ It's very simple, the main script "Wolverine.sh" ask you what you want to do and
   - Phoneinfoga -> Tool to get informations on Intenret from a Phone Number 
   - Wordpress Security Scanner (WPScan) -> Tool to scan Wordpress Websites, to get all the extensions and so the vulnerabilities
   - MacChanger -> Tool used to hide your real MAC Address behind a fake one
+  - Bastet -> Tetris Clone (Not available on ArchLinux)
+  - Nudoku -> Sudoku Game (Not available on ArchLinux)
+  - Nsnake -> Snake Clone (Not available on ArchLinux)
+  - Ninvaders -> Space Invaders Clone (not avaible on ArchLinux)
 
 # How to use ?
 
@@ -40,3 +44,4 @@ Twitter : @LeCoqHardi__
 
 - If you have the error "Unable to Locate package metasploit-framework", use this command -> "wget https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb && chmod +x msfinstall &&./msfinstall "
 - Right now Patator isn't available on ArchLinux, when it'll be, i'll add it to the script Install_arch.sh
+- Every games aren't in ArchLinux, when they'll be, i'll add it to the script Install_arch.sh
