@@ -21,7 +21,7 @@ echo "==============================================="
 
 
 if cmp -s "$file1" "$file2"; then
-    printf "No Updates Available."
+    printf "No update available."
     sudo rm -r temp/
 else
     printf "An update is available, do you want to install it ? [y/n]"
