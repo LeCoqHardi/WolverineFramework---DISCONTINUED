@@ -51,7 +51,27 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
 clear
 rm msfinstall
 echo "----------------------"
+echo "Installing Bastet..."
+echo "----------------------"
+sudo apt install bastet -y
+clear
+echo "----------------------"
+echo "Installing Nsnake..."
+echo "----------------------"
+sudo apt install nsnake -y
+clear
+echo "----------------------"
+echo "Installing Nudoku..."
+echo "----------------------"
+sudo apt install nudoku -y
+clear
+echo "----------------------"
+echo "Installing Ninvaders..."
+echo "----------------------"
+sudo apt install ninvaders -y
+clear
+echo "----------------------"
 echo "Preparing all scripts..."
 echo "----------------------"
-chmod a+x Scripts/* && chmod a+x *
+chmod a+x Scripts/* && chmod a+x *.sh
 
