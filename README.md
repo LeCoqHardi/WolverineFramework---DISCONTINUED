@@ -23,7 +23,7 @@ It's very simple, the main script "Wolverine.sh" ask you what you want to do and
   - Bastet -> Tetris Clone (Not available on ArchLinux)
   - Nudoku -> Sudoku Game (Not available on ArchLinux)
   - Nsnake -> Snake Clone (Not available on ArchLinux)
-  - Ninvaders -> Space Invaders Clone (not avaible on ArchLinux)
+  - Ninvaders -> Space Invaders Clone (not available on ArchLinux)
 
 # How to use ?
 
