@@ -29,9 +29,9 @@ echo "7) Scan wordpress vulnerabilities"
 echo ""
 echo "8) Hide your MAC Adress with a fake MAC Adress"
 echo ""
-echo "9) Take a Gaming Break"
+echo "9) Take control of a Windows Computer"
 echo ""
-echo "10) Take control of a Windows Computer"
+echo "G) Take a Gaming Break"
 echo ""
 echo "X) Quit Wolverine.sh"
 echo "---------------------------------"
@@ -126,7 +126,7 @@ then
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	./Scripts/MacChanger.sh
-elif [ $Reponse = 9 ]
+elif [ $Reponse = "G" ]
 then
 	echo "You want to take a gaming break..."
 	echo "---------------------------------------------------------------"
@@ -136,7 +136,7 @@ then
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	./Scripts/Games.sh
-elif [ $Reponse = 10 ]
+elif [ $Reponse = 9 ]
 then
 	echo "Vous voulez prendre le contrôle d'un PC windows..."
 	echo "---------------------------------------------------------------"
