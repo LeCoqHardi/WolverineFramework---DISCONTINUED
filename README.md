@@ -8,7 +8,7 @@ WolverineFramework is a little and very complete Script allowing you to install 
 
 It's very simple, the main script "Wolverine.sh" ask you what you want to do and, depending on what you choose, it will run some "mini" script in the Script folder, in order to avoid you the task to type complete commands lines.
 
-# Outils présent dans le Framework
+# Tools in the Framework
 
   - ettercap-text-only -> Man in the Middle tool
   - hping3 -> DoS/DDoS tool
