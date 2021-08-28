@@ -29,7 +29,7 @@ It's very simple, the main script "Wolverine.sh" ask you what you want to do and
 
 First, I advise you to run the "ChechForUpdates.sh", it'll check if there's an update available, if it's the case, it'll ask you if you want to update to get the lastest version.
 
-Then, I advise you to run the "Install.sh" script. For that, you have to make it executable, with the command "sudo chmod a+x CheckForUpdates.sh". This script install every packets needed for the Framework (It'll install the packets above, if you have them, it'll do nothing), he'll also make the others script executable. If you're using Kali Linux, you don't need this step, but you have to make every Script executable, with the command "chmod a+x .sh && chmod a+x Scripts/" in the Framework's folder.
+Then, I advise you to run the "Install.sh" script. For that, you have to make it executable, with the command "sudo chmod a+x CheckForUpdates.sh". This script install every packets needed for the Framework (It'll install the packets above, if you have them, it'll do nothing), he'll also make the others script executable. 
 
 
 Finally, you can run the "Wolverine.sh" script, and you just have to answer the questions to use it, it'll run the scripts from the Scripts' folder to execute what you ask !
