@@ -1,7 +1,7 @@
 #!/bin/bash
 
 lhost=$(hostname -I | awk '{print $1}')
-    mkdir Executables
+    mkdir exeFiles
     echo "Your IP address is :" $lhost
     echo "Which port do you want to use ?"
     read lport
