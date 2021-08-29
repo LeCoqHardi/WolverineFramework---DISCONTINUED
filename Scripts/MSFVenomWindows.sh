@@ -33,5 +33,6 @@ but, the .exe file is very detectable, so don't forget to disable the antivurus 
     tput setaf 7
     echo "Once all of this is done, you just have to lauch the exploit by typing run or exploit and that's it, to take a pic with the webcam, type webcam_snap, and if you want to record the webcam, type webcam_stream, for others commands, type help"
     echo ""
+    echo "Launching Metasploit-Framework, please wait..."
     sudo service postgresql start
     sudo msfconsole -q
