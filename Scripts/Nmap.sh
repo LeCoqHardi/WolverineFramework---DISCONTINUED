@@ -28,10 +28,22 @@ then
 	fi
 elif [ $Reponse = "2" ]
 then
+	echo "1) Utiliser NMAP (IP + Marque de l'appareil)"
+	echo ""
+	echo "2) Utiliser Arp-Scan (Adresse MAC + Adresse IP + Marque de l'appareil) "
+	echo ""
+	read Rep2
+	if [ $Rep2 = "1" ]
+	then
 	IP=$(hostname -I | awk '{print $1}')
 	echo "Your IP address is :" $IP
 	echo "-------------------------------------------------"
 	echo "Launching scan..."
 	nmap $IP/24
+	elif [ $Rep2 = "2" ]
+	then
+	sudo arp-scan -l
+	fi
+
 fi
 
