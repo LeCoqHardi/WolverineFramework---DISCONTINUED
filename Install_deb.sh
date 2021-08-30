@@ -25,7 +25,7 @@ clear
 echo "----------------------"
 echo "Installing Ettercap Text Only..."
 echo "----------------------"
-sudo apt install ettercap-text-only -y
+sudo apt install ettercap-graphical -y
 clear
 echo "----------------------"
 echo "Installing MacChanger..."
