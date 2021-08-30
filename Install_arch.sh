@@ -39,6 +39,11 @@ echo "----------------------"
 sudo pacman -S wpscan -y
 clear
 echo "----------------------"
+echo "Installing de Arp-Scan..."
+echo "----------------------"
+sudo pacman -S arp-scan -y
+clear
+echo "----------------------"
 echo "Installing PostGreSQL..."
 echo "----------------------"
 sudo pacman -S postgresql -y
