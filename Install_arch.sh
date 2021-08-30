@@ -26,7 +26,7 @@ clear
 echo "----------------------"
 echo "Installing Ettercap..."
 echo "----------------------"
-sudo pacman -S ettercap -y
+sudo pacman -S ettercap-gtk -y
 clear
 echo "----------------------"
 echo "Installing MacChanger..."
