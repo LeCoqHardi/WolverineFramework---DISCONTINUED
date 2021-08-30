@@ -38,6 +38,11 @@ echo "----------------------"
 sudo apt install wpscan -y
 clear
 echo "----------------------"
+echo "Installing Arp-Scan..."
+echo "----------------------"
+sudo apt install arp-scan -y
+clear
+echo "----------------------"
 echo "Installing PostGreSQL..."
 echo "----------------------"
 sudo apt install postgresql -y
