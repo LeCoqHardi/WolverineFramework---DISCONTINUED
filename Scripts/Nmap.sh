@@ -30,7 +30,7 @@ elif [ $Reponse = "2" ]
 then
 	echo "1) Use NMAP (IP Address + Host brand)"
 	echo ""
-	echo "2) Utiliser Arp-Scan (MAC Address + IP Address + Host brand) "
+	echo "2) Use Arp-Scan (MAC Address + IP Address + Host brand) "
 	echo ""
 	echo "-------------------------------------------------"
 	read Rep2
