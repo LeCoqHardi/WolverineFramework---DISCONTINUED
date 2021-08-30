@@ -28,10 +28,11 @@ then
 	fi
 elif [ $Reponse = "2" ]
 then
-	echo "1) Utiliser NMAP (IP + Marque de l'appareil)"
+	echo "1) Use NMAP (IP Address + Host brand)"
 	echo ""
-	echo "2) Utiliser Arp-Scan (Adresse MAC + Adresse IP + Marque de l'appareil) "
+	echo "2) Utiliser Arp-Scan (MAC Address + IP Address + Host brand) "
 	echo ""
+	echo "-------------------------------------------------"
 	read Rep2
 	if [ $Rep2 = "1" ]
 	then
