@@ -20,6 +20,7 @@ It's very simple, the main script "Wolverine.sh" ask you what you want to do and
   - Phoneinfoga -> Tool to get informations on Intenret from a Phone Number 
   - Wordpress Security Scanner (WPScan) -> Tool to scan Wordpress Websites, to get all the extensions and so the vulnerabilities
   - MacChanger -> Tool used to hide your real MAC Address behind a fake one
+  - Arp-Scan -> Tool using ARP to discover hosts inside a LAN
   - Bastet -> Tetris Clone (Not available on ArchLinux)
   - Nudoku -> Sudoku Game (Not available on ArchLinux)
   - Nsnake -> Snake Clone (Not available on ArchLinux)
