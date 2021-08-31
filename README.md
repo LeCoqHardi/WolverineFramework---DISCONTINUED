@@ -37,10 +37,11 @@ Finally, you can run the "Wolverine.sh" script, and you just have to answer the 
 
 # That's it !
 
-Have fun with this little script, if you want to contact me, you can on Discord or Twitter :
+Have fun with this little script, if you want to contact me, you can on Discord, Twitch or Twitter :
 
 Discord : Théo#2226
 Twitter : @LeCoqHardi__
+Twitch : https://www.twitch.tv/LeCoqHardi
 
 # Important Notes
 
