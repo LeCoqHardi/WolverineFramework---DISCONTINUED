@@ -31,6 +31,8 @@ echo "8) Hide your MAC Adress with a fake MAC Adress"
 echo ""
 echo "9) Take control of a Windows Computer"
 echo ""
+echo "10) Take control of an Android Phone"
+echo ""
 echo "G) Take a Gaming Break"
 echo ""
 echo "X) Quit Wolverine.sh"
@@ -136,9 +138,9 @@ then
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	./Scripts/Games.sh
-elif [ $Reponse = 9 ]
+elif [ $Reponse = "9" ]
 then
-	echo "Vous voulez prendre le contrôle d'un PC windows..."
+	echo "You want to take control of a Windows Computer..."
 	echo "---------------------------------------------------------------"
 	clear
 	tput setaf 1
@@ -146,6 +148,16 @@ then
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	./Scripts/MSFVenomWindows.sh
+elif [ $Reponse = "10" ]
+then
+	echo "You want to take control of an Android Phone..."
+	echo "---------------------------------------------------------------"
+	clear
+	tput setaf 1
+	cat logo
+	tput setaf 7
+	echo "---------------------------------------------------------------"
+	./Scripts/MSFVenomAndroid.sh
 elif [ $Reponse = X ]
 then
 	exit
