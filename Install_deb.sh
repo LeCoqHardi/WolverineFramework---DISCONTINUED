@@ -23,7 +23,7 @@ echo "----------------------"
 sudo apt install medusa -y
 clear
 echo "----------------------"
-echo "Installing Ettercap Text Only..."
+echo "Installing Ettercap Graphical..."
 echo "----------------------"
 sudo apt install ettercap-graphical -y
 clear
