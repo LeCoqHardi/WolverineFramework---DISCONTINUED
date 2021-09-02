@@ -10,7 +10,7 @@ It's very simple, the main script "Wolverine.sh" ask you what you want to do and
 
 # Tools in the Framework
 
-  - ettercap-text-only -> Man in the Middle tool
+  - ettercap-graphical -> Man in the Middle tool
   - hping3 -> DoS/DDoS tool
   - Medusa -> Multi purpose Bruteforce tool
   - Patator -> Multi purpose Bruteforce tool (Not available on ArchLinux)
