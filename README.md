@@ -6,7 +6,7 @@ WolverineFramework is a little and very complete Script allowing you to install 
 
 # How it works ?
 
-It's very simple, the main script "Wolverine.sh" ask you what you want to do and, depending on what you choose, it will run some "mini" script in the Script folder, in order to avoid you the task to type complete commands lines.
+It's very simple, the main script "Wolverine.sh" asks you what you want to do and, depending on what you choose, it will run some "mini" script in the Script folder, in order to keep you from having to type complete commands lines.
 
 # Tools in the Framework
 
@@ -30,7 +30,7 @@ It's very simple, the main script "Wolverine.sh" ask you what you want to do and
 
 First, I advise you to run the "ChechForUpdates.sh", it'll check if there's an update available, if it's the case, it'll ask you if you want to update to get the lastest version.
 
-Then, I advise you to run the "Install.sh" script. For that, you have to make it executable, with the command "sudo chmod a+x CheckForUpdates.sh". This script install every packets needed for the Framework (It'll install the packets above, if you have them, it'll do nothing), he'll also make the others script executable. 
+Then, I advise you to run the "Install.sh" script. For that, you have to make it executable, with the command "sudo chmod a+x CheckForUpdates.sh". This script installs every packet needed for the Framework (It'll install the packets above, if you have them, it'll do nothing), it'll also make the others script executable. 
 
 
 Finally, you can run the "Wolverine.sh" script, and you just have to answer the questions to use it, it'll run the scripts from the Scripts' folder to execute what you ask !
@@ -46,5 +46,5 @@ Twitch : https://www.twitch.tv/LeCoqHardi
 # Important Notes
 
 - If you have the error "Unable to Locate package metasploit-framework", use this command -> "wget https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb && chmod +x msfinstall &&./msfinstall "
-- Right now Patator isn't available on ArchLinux, when it'll be, i'll add it to the script Install_arch.sh
-- Every games aren't in ArchLinux, when they'll be, i'll add it to the script Install_arch.sh
+- Right now Patator isn't available on ArchLinux, when it is, i'll add it to the script Install_arch.sh
+- All the games are not in ArchLinux, when they are, i'll add them to the script Install_arch.sh
