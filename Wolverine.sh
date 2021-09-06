@@ -39,7 +39,7 @@ echo "X) Quit Wolverine.sh"
 echo "---------------------------------"
 echo "Enter your choice here (1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 and X to close)"
 echo ""
-read -p "WolverineFramework>" Reponse
+read -p "WolverineFramework> " Reponse
 if [ $Reponse = "1" ]
 then
 	echo "You wanna perform a Man in the Middle attack, lauching Ettercap..."
