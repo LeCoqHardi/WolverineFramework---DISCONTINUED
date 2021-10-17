@@ -22,6 +22,10 @@ echo "Installing Medusa..."
 echo "----------------------"
 sudo apt install medusa -y
 clear
+echo "Installing Hydra..."
+echo "----------------------"
+sudo apt install hydra -y
+clear
 echo "----------------------"
 echo "Installing Ettercap Graphical..."
 echo "----------------------"

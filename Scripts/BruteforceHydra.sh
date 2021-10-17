@@ -15,4 +15,4 @@ echo ""
 echo "=========================================="
 echo "Which wordlist do you want to use (don't forget filename extension !) ?"
 read Wordlist
-sudo medusa -h $IP -u $Session -P Wordlists/$Wordlist -M $protocol
+sudo hydra -l $Session -P Wordlists/$Wordlist $IP -t 6 $protocol

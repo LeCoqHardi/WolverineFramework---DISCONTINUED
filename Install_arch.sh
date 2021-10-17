@@ -24,6 +24,11 @@ echo "----------------------"
 sudo pacman -S medusa -y
 clear
 echo "----------------------"
+echo "Installing Hydra..."
+echo "----------------------"
+sudo pacman -S hydra -y
+clear
+echo "----------------------"
 echo "Installing Ettercap..."
 echo "----------------------"
 sudo pacman -S ettercap-gtk -y

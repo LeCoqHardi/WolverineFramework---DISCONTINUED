@@ -14,6 +14,7 @@ It's very simple, the main script "Wolverine.sh" asks you what you want to do an
   - hping3 -> DoS/DDoS tool
   - Medusa -> Multi purpose Bruteforce tool
   - Patator -> Multi purpose Bruteforce tool (Not available on ArchLinux)
+  - Hydra -> Multi purpose Bruteforce tool
   - Network Mapper (nmap) -> Network and ports scanning tool
   - PostGreSQL -> Essential database for Metasploit
   - Metasploit -> Framework with a lot of Exploits
