@@ -3,9 +3,9 @@
 lhost=$(hostname -I | awk '{print $1}')
     echo "Your IP address is :" $lhost
     echo "Which port do you want to use ?"
-    read lport
+    read -p "WolverineFramework - Port> " lport
     echo "What name do you want to give to the .apk file ? (don't put .apk)"
-    read extension
+    read -p "WolverineFramework - File Name> " extension
     sudo mkdir APK
 	dossier=$(pwd)
     echo "Creating .apk file..."

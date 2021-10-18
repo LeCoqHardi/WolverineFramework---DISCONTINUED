@@ -12,7 +12,7 @@ echo "4) Space Invaders" #ninvaders
 echo ""
 echo "------------------------------------------------------"
 
-read game
+read -p "WolverineFramework - Game> "game
 
 if [ $game = "1" ]
 then

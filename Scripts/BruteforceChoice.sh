@@ -12,7 +12,7 @@ echo ""
 echo "------------------------------------------------------"
 echo ""
 echo "Enter your answer here"
-read Reponse
+read -p "WolverineFramework - Answer> " Reponse
 #medusa part
 if [ $Reponse = "1" ]
 then
