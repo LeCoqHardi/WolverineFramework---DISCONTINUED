@@ -33,8 +33,6 @@ echo "9) Take control of a Windows Computer"
 echo ""
 echo "10) Take control of an Android Phone"
 echo ""
-echo "11) Encrypt/Decrypt a file (with key)"
-echo ""
 echo "G) Take a Gaming Break"
 echo ""
 echo "X) Quit Wolverine.sh"
@@ -170,18 +168,6 @@ then
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	./Scripts/MSFVenomAndroid.sh
-
-#CRYPTOGRAPHY PART
-elif [ $Reponse = 11 ]
-then 
-echo "You want to encrypt or decrypt a file, launching OpenSSl..."
-	echo "---------------------------------------------------------------"
-	clear
-	tput setaf 1
-	cat logo
-	tput setaf 7
-	echo "---------------------------------------------------------------"
-	./Scripts/EncryptDecrypt.sh
 	
 # GAMING PART
 elif [ $Reponse = "G" ]
