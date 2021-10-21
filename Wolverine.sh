@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#english version
+
 #This script allow you to use Kali Linux basic tools easily, it's very easy to understand, and graphical.
 #Made by LeCoqHardi : https://www.twitch.tv/lecoqhardi // https://twitter.com/LeCoqHardi__
 
