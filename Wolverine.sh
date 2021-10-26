@@ -33,8 +33,6 @@ echo "9) Take control of a Windows Computer"
 echo ""
 echo "10) Take control of an Android Phone"
 echo ""
-echo "G) Take a Gaming Break"
-echo ""
 echo "X) Quit Wolverine.sh"
 echo "---------------------------------"
 echo "Enter your choice here (1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 and X to close)"
@@ -168,19 +166,6 @@ then
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	./Scripts/MSFVenomAndroid.sh
-	
-# GAMING PART
-elif [ $Reponse = "G" ]
-then
-	echo "You want to take a gaming break..."
-	echo "---------------------------------------------------------------"
-	clear
-	tput setaf 1
-	cat logo
-	tput setaf 7
-	echo "---------------------------------------------------------------"
-	./Scripts/Games.sh
-
 
 # EXIT PART
 elif [ $Reponse = X ]
