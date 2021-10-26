@@ -10,22 +10,22 @@ It's very simple, the main script "Wolverine.sh" asks you what you want to do an
 
 # Tools in the Framework
 
-  - ettercap-graphical -> Man in the Middle tool
-  - hping3 -> DoS/DDoS tool
-  - Medusa -> Multi purpose Bruteforce tool
-  - Patator -> Multi purpose Bruteforce tool (Not available on ArchLinux)
-  - Hydra -> Multi purpose Bruteforce tool
-  - Network Mapper (nmap) -> Network and ports scanning tool
-  - PostGreSQL -> Essential database for Metasploit
-  - Metasploit -> Framework with a lot of Exploits
-  - Phoneinfoga -> Tool to get informations on Intenret from a Phone Number 
-  - Wordpress Security Scanner (WPScan) -> Tool to scan Wordpress Websites, to get all the extensions and so the vulnerabilities
-  - MacChanger -> Tool used to hide your real MAC Address behind a fake one
-  - Arp-Scan -> Tool using ARP to discover hosts inside a LAN
-  - Bastet -> Tetris Clone (Not available on ArchLinux)
-  - Nudoku -> Sudoku Game (Not available on ArchLinux)
-  - Nsnake -> Snake Clone (Not available on ArchLinux)
-  - Ninvaders -> Space Invaders Clone (not available on ArchLinux)
+  - ettercap-graphical → Man in the Middle tool
+  - hping3 → DoS/DDoS tool
+  - Medusa → Multi purpose Bruteforce tool
+  - Patator → Multi purpose Bruteforce tool (Not available on ArchLinux)
+  - Hydra → Multi purpose Bruteforce tool
+  - Network Mapper (nmap) → Network and ports scanning tool
+  - PostGreSQL → Essential database for Metasploit
+  - Metasploit → Framework with a lot of Exploits
+  - Phoneinfoga → Tool to get informations on Intenret from a Phone Number 
+  - Wordpress Security Scanner (WPScan) → Tool to scan Wordpress Websites, to get all the extensions and so the vulnerabilities
+  - MacChanger → Tool used to hide your real MAC Address behind a fake one
+  - Arp-Scan → Tool using ARP to discover hosts inside a LAN
+  - Bastet → Tetris Clone (Not available on ArchLinux)
+  - Nudoku → Sudoku Game (Not available on ArchLinux)
+  - Nsnake → Snake Clone (Not available on ArchLinux)
+  - Ninvaders → Space Invaders Clone (not available on ArchLinux)
 
 # How to use ?
 
