@@ -1,7 +1,7 @@
 <img src="assets/Banner.png">
 
 # How to install
-Just copy this command to your terminal
+Just copy this command to your terminal<br>
 `git clone https://www.github.com/lecoqhardi/WolverineFramework && sudo mv WolverineFramework/wolverine /bin && sudo mv WolverineFramework /etc`
 
 
