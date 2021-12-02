@@ -61,4 +61,4 @@ clear
 echo "----------------------"
 echo "Preparing scripts..."
 echo "----------------------"
-chmod a+x Scripts/* && chmod a+x Wolverine.sh
+sudo chmod a+x /etc/WolverineFramework/Scripts/* && sudo chmod a+x Wolverine.sh
