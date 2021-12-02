@@ -1,5 +1,10 @@
 <img src="assets/Banner.png">
 
+# How to install
+Just copy this command to your terminal
+`git clone https://www.github.com/lecoqhardi/WolverineFramework && sudo mv WolverineFramework/wolverine /bin && sudo mv WolverineFramework /etc`
+
+
 # WolverineFramework
 
 WolverineFramework is a little and very complete Script allowing you to install and use basic Cybersecurity tools ! The Script is constantly updated, so don't forget to run the "CheckForUpdates.sh" script frequently !
