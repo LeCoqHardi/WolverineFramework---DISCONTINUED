@@ -35,8 +35,8 @@ First, I advise you to run the "ChechForUpdates.sh", it'll check if there's an u
 Then, I advise you to run the "Install.sh" script. For that, you have to make it executable, with the command "sudo chmod a+x CheckForUpdates.sh". This script installs every packet needed for the Framework (It'll install the packets above, if you have them, it'll do nothing), it'll also make the others script executable. 
 
 
-Finally, you can run the "Wolverine.sh" script, and you just have to answer the questions to use it, it'll run the scripts from the Scripts' folder to execute what you ask !
-
+To launch it, just run `sudo wolverine` in your terminal
+ 
 # That's it !
 
 Have fun with this little script, if you want to contact me, you can on Discord, Twitch or Twitter :
