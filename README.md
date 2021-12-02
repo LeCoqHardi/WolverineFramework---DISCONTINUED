@@ -2,12 +2,12 @@
 
 # How to install
 Just copy this command to your terminal<br>
-`git clone https://www.github.com/lecoqhardi/WolverineFramework && chmod +x WolverineFramework/wolverine && chmod +x WolverineFramework/CheckForUpdates.sh && chmod +x WolverineFramework/Wolverine.sh && sudo mv WolverineFramework/wolverine /bin && sudo mv WolverineFramework /etc`
+`git clone https://www.github.com/lecoqhardi/WolverineFramework && chmod +x WolverineFramework/wolverine && chmod +x WolverineFramework/Wolverine.sh && sudo mv WolverineFramework/wolverine /bin && sudo mv WolverineFramework /etc`
 
 
 # WolverineFramework
 
-WolverineFramework is a little and very complete Script allowing you to install and use basic Cybersecurity tools ! The Script is constantly updated, so don't forget to run the "CheckForUpdates.sh" script frequently by doing `bash /etc/WolverineFramework/CheckForUpdates.sh` !  (I advise you to run again /etc/WolverineFramework/Install.sh when there is an update with `bash /etc/WolverineFramework/Install.sh`). 
+WolverineFramework is a little and very complete Script allowing you to install and use basic Cybersecurity tools ! The Script is constantly updated, so don't forget to pull the Framework frequently by doing `cd /etc && sudo rm -r WolverineFramework && sudo git clone https://www.github.com/lecoqhardi/WolverineFramework.git ` !  (I advise you to run again /etc/WolverineFramework/Install.sh when there is an update with `bash /etc/WolverineFramework/Install.sh`). 
 
 # How it works ?
 
