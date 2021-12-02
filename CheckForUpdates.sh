@@ -7,12 +7,12 @@ echo "==============================================="
 mkdir temp
 cd temp
 wget https://raw.githubusercontent.com/LeCoqHardi/WolverineFramework/main/Wolverine.sh
-mv Wolverine.sh WolverineCompare.sh
+mv /etc/WolverineFramework/temp/Wolverine.sh WolverineCompare.sh
 cd ..
-cp Wolverine.sh temp
+cp /etc/WolverineFramework/Wolverine.sh temp
 
-file1="temp/Wolverine.sh"
-file2="temp/WolverineCompare.sh"
+file1="/etc/WolverineFramework/temp/Wolverine.sh"
+file2="/etc/WolverineFramework/temp/WolverineCompare.sh"
 clear
 
 echo "==============================================="
