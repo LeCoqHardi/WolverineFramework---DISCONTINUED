@@ -5,7 +5,6 @@
 #Made by LeCoqHardi : https://www.twitch.tv/lecoqhardi // https://twitter.com/LeCoqHardi__
 
 sudo clear
-bash /etc/WolverineFramework/CheckForUpdates.sh
 clear
 tput setaf 1
 cat /etc/WolverineFramework/logo
