@@ -6,7 +6,7 @@ echo "==============================================="
 
 mkdir temp
 cd temp
-wget https://raw.githubusercontent.com/LeCoqHardi/WolverineFramework_EN/main/Wolverine.sh
+wget https://raw.githubusercontent.com/LeCoqHardi/WolverineFramework/main/Wolverine.sh
 mv Wolverine.sh WolverineCompare.sh
 cd ..
 cp Wolverine.sh temp
@@ -34,9 +34,9 @@ else
         echo ""
         echo "Updating, please wait..."
         cd ..
-        sudo rm -r WolverineFramework_EN/
-        git clone https://github.com/LeCoqHardi/WolverineFramework_EN
-        cd WolverineFramework_EN/
+        sudo rm -r WolverineFramework/
+        git clone https://github.com/LeCoqHardi/WolverineFramework
+        cd WolverineFramework/
         echo ""
         echo "Update complete."
         chmod a+x *.sh && chmod a+x Scripts/*
