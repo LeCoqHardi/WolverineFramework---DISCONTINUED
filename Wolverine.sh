@@ -6,6 +6,7 @@
 
 sudo clear
 bash /etc/WolverineFramework/CheckForUpdates.sh
+clear
 tput setaf 1
 cat /etc/WolverineFramework/logo
 tput setaf 7
