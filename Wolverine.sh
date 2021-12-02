@@ -51,7 +51,7 @@ then
 	cat logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
-	./Scripts/Ettercap.sh
+	bash /etc/WolverineFramework/Scripts/Ettercap.sh
 
 # DDOS PART
 elif [ $Reponse = 2 ]
@@ -61,7 +61,7 @@ then
 	clear
 	cat logo
 	echo "-----------------------------------------------------------------"
-	./Scripts/DDOS_ICMP.sh
+	bash /etc/WolverineFramework/Scripts/DDOS_ICMP.sh
 # BRUTEFORCE PART
 elif [ $Reponse = 3 ]
 then
@@ -72,7 +72,7 @@ then
 	cat logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
-	./Scripts/BruteforceChoice.sh
+	bash /etc/WolverineFramework/Scripts/BruteforceChoice.sh
 
 # NETWORK SCANNING PART
 elif [ $Reponse = 4 ]
@@ -84,7 +84,7 @@ then
 	cat logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
-	./Scripts/Nmap.sh
+	bash /etc/WolverineFramework/Scripts/Nmap.sh
 # MSFCONSOLE PART
 elif [ $Reponse = 5 ]
 then
@@ -118,7 +118,7 @@ then
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	echo "Launching PhoneInfoga..."
-	./Scripts/phoneinfoga scan -n $numero
+	bash /etc/WolverineFramework/Scripts/phoneinfoga scan -n $numero
 
 # WPSCAN PART
 elif [ $Reponse = 7 ]
@@ -130,7 +130,7 @@ then
 	cat logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
-	./Scripts/WPScan.sh
+	bash /etc/WolverineFramework/Scripts/WPScan.sh
 
 #MACCHANGER PART
 elif [ $Reponse = 8 ]
@@ -142,7 +142,7 @@ then
 	cat logo
 	tput setaf 7
 	echo "---------------------------------------------------------------"
-	./Scripts/MacChanger.sh
+	bash /etc/WolverineFramework/Scripts/MacChanger.sh
 
 
 # WINDOWS CONTROL PART
@@ -155,7 +155,7 @@ then
 	cat logo
 	tput setaf 7
 	echo "---------------------------------------------------------------"
-	./Scripts/MSFVenomWindows.sh
+	bash /etc/WolverineFramework/Scripts/MSFVenomWindows.sh
 
 # ANDROID CONTROL PART
 elif [ $Reponse = 10 ]
@@ -167,7 +167,7 @@ then
 	cat logo
 	tput setaf 7
 	echo "---------------------------------------------------------------"
-	./Scripts/MSFVenomAndroid.sh
+	bash /etc/WolverineFramework/Scripts/MSFVenomAndroid.sh
 
 # EXIT PART
 elif [ $Reponse = X ]
