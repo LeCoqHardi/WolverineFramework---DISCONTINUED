@@ -48,7 +48,7 @@ then
 	echo "----------------------------------------------------------------"
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	bash /etc/WolverineFramework/Scripts/Ettercap.sh
@@ -59,7 +59,7 @@ then
 	echo "You wanna perform a DoS or DDoS attack, launching hping3..."
 	echo "-----------------------------------------------------------------"
 	clear
-	cat logo
+	cat /etc/WolverineFramework/logo
 	echo "-----------------------------------------------------------------"
 	bash /etc/WolverineFramework/Scripts/DDOS_ICMP.sh
 # BRUTEFORCE PART
@@ -69,7 +69,7 @@ then
 	echo "----------------------------------------------------------------"
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	bash /etc/WolverineFramework/Scripts/BruteforceChoice.sh
@@ -81,7 +81,7 @@ then
 	echo "----------------------------------------------------------------"
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	bash /etc/WolverineFramework/Scripts/Nmap.sh
@@ -90,14 +90,14 @@ elif [ $Reponse = 5 ]
 then
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	echo "Launching Metasploit..."
 	service postgresql start
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	sudo msfconsole
@@ -107,14 +107,14 @@ elif [ $Reponse = 6 ]
 then
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	echo "Enter the phone number with the country code (France = +336...)"
 	read -p "WolverineFramework - Phone Number> " numero
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	echo "Launching PhoneInfoga..."
@@ -127,7 +127,7 @@ then
 	echo "----------------------------------------------------------------"
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	bash /etc/WolverineFramework/Scripts/WPScan.sh
@@ -139,7 +139,7 @@ then
 	echo "---------------------------------------------------------------"
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	bash /etc/WolverineFramework/Scripts/MacChanger.sh
@@ -152,7 +152,7 @@ then
 	echo "---------------------------------------------------------------"
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	bash /etc/WolverineFramework/Scripts/MSFVenomWindows.sh
@@ -164,7 +164,7 @@ then
 	echo "---------------------------------------------------------------"
 	clear
 	tput setaf 1
-	cat logo
+	cat /etc/WolverineFramework/logo
 	tput setaf 7
 	echo "---------------------------------------------------------------"
 	bash /etc/WolverineFramework/Scripts/MSFVenomAndroid.sh
