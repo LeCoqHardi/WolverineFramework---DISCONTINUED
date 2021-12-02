@@ -2,7 +2,7 @@
 
 # How to install
 Just copy this command to your terminal<br>
-`git clone https://www.github.com/lecoqhardi/WolverineFramework && sudo mv WolverineFramework/wolverine /bin && sudo mv WolverineFramework /etc`
+`git clone https://www.github.com/lecoqhardi/WolverineFramework && chmod +x WolverineFrameworl/wolverine && sudo mv WolverineFramework/wolverine /bin && sudo mv WolverineFramework /etc`
 
 
 # WolverineFramework
