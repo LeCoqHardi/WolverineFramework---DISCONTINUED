@@ -5,9 +5,9 @@
 #Made by LeCoqHardi : https://www.twitch.tv/lecoqhardi // https://twitter.com/LeCoqHardi__
 
 sudo clear
-bash CheckForUpdates.sh
+bash /etc/WolverineFramework/CheckForUpdates.sh
 tput setaf 1
-cat logo
+cat /etc/WolverineFramework/logo
 tput setaf 7
 
 echo "---------------------------------"
