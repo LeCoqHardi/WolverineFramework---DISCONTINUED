@@ -4,7 +4,8 @@
 #This script allow you to use Kali Linux basic tools easily, it's very easy to understand, and graphical.
 #Made by LeCoqHardi : https://www.twitch.tv/lecoqhardi // https://twitter.com/LeCoqHardi__
 
-sudo clear 
+sudo clear
+bash CheckForUpdates.sh
 tput setaf 1
 cat logo
 tput setaf 7
