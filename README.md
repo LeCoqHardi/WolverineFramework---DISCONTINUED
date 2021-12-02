@@ -7,7 +7,7 @@ Just copy this command to your terminal<br>
 
 # WolverineFramework
 
-WolverineFramework is a little and very complete Script allowing you to install and use basic Cybersecurity tools ! The Script is constantly updated, so don't forget to run the "CheckForUpdates.sh" script frequently !
+WolverineFramework is a little and very complete Script allowing you to install and use basic Cybersecurity tools ! The Script is constantly updated, so don't forget to run the "CheckForUpdates.sh" script frequently by doing `bash /etc/WolverineFramework/CheckForUpdates.sh` !  (I advise you to run again /etc/WolverineFramework/Install.sh when there is an update with `bash /etc/WolverineFramework/Install.sh`). 
 
 # How it works ?
 
@@ -33,7 +33,7 @@ It's very simple, the main script "Wolverine.sh" asks you what you want to do an
 First, I advise you to run the "Install.sh" script. This script installs every packet needed for the Framework (It'll install the packets above, if you have them, it'll do nothing), it'll also make the others script executable. Launch it with `bash /etc/WolverineFramework/Install.sh` command on your terminal.
 
 
-Then launch it by just running `sudo wolverine` in your terminal. The Framework will automatically check for updates, and if there is one available, it'll ask you if you want to install it (I advise you to run again Install.sh when there is an update). 
+Then launch it by just running `sudo wolverine` in your terminal.
 
 Enjoy !
  
