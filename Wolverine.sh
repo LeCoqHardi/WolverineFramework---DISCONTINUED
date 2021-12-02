@@ -5,7 +5,6 @@
 #Made by LeCoqHardi : https://www.twitch.tv/lecoqhardi // https://twitter.com/LeCoqHardi__
 
 sudo clear
-clear
 tput setaf 1
 cat /etc/WolverineFramework/logo
 tput setaf 7
