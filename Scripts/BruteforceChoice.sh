@@ -18,17 +18,17 @@ if [ $Reponse = "1" ]
 then
 	echo "You wanna use Medusa, launching Medusa..."
 	echo "------------------------------------------------------"
-	./Scripts/BruteforceMedusa.sh
+	bash /etc/WolverineFramework/Scripts/BruteforceMedusa.sh
 #Hydra part
 elif [ $Reponse = "2" ]
 then
 	echo "You wanna use Hydra, launching Hydra..."
 	echo "------------------------------------------------------"
-	./Scripts/BruteforceHydra.sh
+	bash /etc/WolverineFramework/Scripts/BruteforceHydra.sh
 #Patator part
 elif [ $Reponse = "3" ]
 then
 	echo "You wanna use Patator, launching Patator..."
 	echo "--------------------------------------------------------"
-	./Scripts/BruteforcePatator.sh
+	bash /etc/WolverineFramework/Scripts/BruteforcePatator.sh
 fi
