@@ -34,7 +34,7 @@ else
         echo ""
         echo "Updating, please wait..."
         cd ..
-        sudo rm -r WolverineFramework/
+        sudo rm -r /etc/WolverineFramework/
         sudo git clone https://github.com/LeCoqHardi/WolverineFramework
         cd WolverineFramework/
         echo ""
