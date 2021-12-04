@@ -36,7 +36,7 @@ It's very simple, the main script "Wolverine.sh" asks you what you want to do an
 First, I advise you to run the "Install.sh" script. This script installs every packet needed for the Framework (It'll install the packets above, if you have them, it'll do nothing), it'll also make the others script executable. Launch it with `bash /etc/WolverineFramework/Install_deb.sh` for Debian/Ubuntu users or `bash /etc/WolverineFramework/Install_arch.sh`for Arch users on your terminal.
 
 
-Then launch it by just running `sudo wolverine` in your terminal.
+Then launch it by just running `wolverine` in your terminal.
 
 Enjoy !
  
