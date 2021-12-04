@@ -6,6 +6,8 @@
 <b>Uninstall</b> : Just copy this command to your terminal<br>
 `sudo rm -r /etc/WolverineFramework`
 If you want to uninstall all packages mentionned in "# Tools in the Framework", just type `sudo apt purge <package name>` for Debian/Ubuntu users and `sudo pacman -R <package name` for Arch Users
+<b>Update</b> : Just copy this command to your terminal <br>
+`cd /etc && sudo rm -r WolverineFramework && sudo git clone https://www.github.com/lecoqhardi/WolverineFramework.git && cd ~ && clear && echo "Update Complete !"`
 
 
 # WolverineFramework
