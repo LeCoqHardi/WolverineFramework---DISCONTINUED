@@ -57,7 +57,9 @@ then
 	echo "You wanna perform a DoS or DDoS attack, launching hping3..."
 	echo "-----------------------------------------------------------------"
 	clear
+	tput setaf 1
 	cat /etc/WolverineFramework/logo
+	tput setaf 7
 	echo "-----------------------------------------------------------------"
 	bash /etc/WolverineFramework/Scripts/DDOS_ICMP.sh
 # BRUTEFORCE PART
