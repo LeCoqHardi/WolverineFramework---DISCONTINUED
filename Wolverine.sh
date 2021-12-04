@@ -180,7 +180,7 @@ echo "Do you want to continue using this Wolverine, or quit ? (1 - Continue // 2
 read end
 if [ $end = 1 ]
 then
-	./Wolverine.sh
+	bash /etc/WolverineFramework/Wolverine.sh
 elif [ $end = 2 ]
 then
 	exit
