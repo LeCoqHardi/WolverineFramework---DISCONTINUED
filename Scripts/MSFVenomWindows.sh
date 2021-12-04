@@ -3,6 +3,7 @@
 lhost=$(hostname -I | awk '{print $1}')
     sudo mkdir ~/Wolverine_ExeFiles/
     sudo mkdir ~/Wolverine_ExeFiles/EXE
+    clear
     #dossier=$(pwd)
     echo "Your IP address is :" $lhost
     echo "Which port do you want to use ?"
