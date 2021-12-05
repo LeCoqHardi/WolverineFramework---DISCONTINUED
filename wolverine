@@ -1,3 +1,15 @@
 #!/bin/bash
 
-bash /etc/WolverineFramework/Wolverine.sh
+$1
+if [ $1 = ""]; then
+    #echo "nothing"
+    bash /etc/WolverineFramework/Wolverine.sh
+elif [[ $1 = "-q" ]]; then
+    clear
+    #echo "-q"
+    bash /etc/WolverineFramework/Wolverine_quiet.sh
+else
+    clear
+    echo "wrong argument"
+fi
+
