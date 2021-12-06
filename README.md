@@ -14,7 +14,7 @@ If you want to uninstall all packages mentionned in "# Tools in the Framework", 
 
 # WolverineFramework
 
-WolverineFramework is a little and very complete Script allowing you to install and use basic Cybersecurity tools ! The Script is constantly updated, so don't forget to pull the Framework frequently by doing `cd /etc && sudo rm -r WolverineFramework && sudo git clone https://www.github.com/lecoqhardi/WolverineFramework.git && cd ~ && clear && echo "Update Complete !"` !  (I advise you to run again /etc/WolverineFramework/Install.sh when there is an update with `bash /etc/WolverineFramework/Install_deb.sh` for Debian/Ubuntu users or `bash /etc/WolverineFramework/Install_arch.sh` for Arch users). 
+WolverineFramework is a little and very complete Script allowing you to install and use basic Cybersecurity tools ! The Script is constantly updated, so don't forget to pull the Framework frequently by doing `cd /etc && sudo rm -r WolverineFramework && sudo git clone https://www.github.com/lecoqhardi/WolverineFramework.git && sudo mv /etc/WolverineFramework/wolverine /bin && cd ~ && clear && sudo chmod +x /bin/wolverine && echo "Update Complete !"` !  (I advise you to run again /etc/WolverineFramework/Install.sh when there is an update with `bash /etc/WolverineFramework/Install_deb.sh` for Debian/Ubuntu users or `bash /etc/WolverineFramework/Install_arch.sh` for Arch users). 
 
 # How it works ?
 
