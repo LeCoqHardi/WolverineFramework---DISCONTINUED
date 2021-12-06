@@ -8,8 +8,15 @@ elif [[ $1 = "-q" ]]; then
     clear
     #echo "-q"
     bash /etc/WolverineFramework/Wolverine_quiet.sh
+elif [[ $1 = "-h" ]]; then
+    clear
+    echo " Usage : wolverine [options]"
+    echo "available options :"
+    echo " nothing -> Will launch Wolverine"
+    echo " -q -> Will launch Wolverine in quiet mode (no logo)"
+    echo " -h -> Will show you available options"
 else
     clear
-    echo "wrong argument"
+    echo "wrong argument, type <wolverine -h> to see available arguments"
 fi
 
