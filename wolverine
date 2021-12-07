@@ -8,6 +8,18 @@ elif [[ $1 = "-q" ]]; then
     clear
     #echo "-q"
     bash /etc/WolverineFramework/Wolverine_quiet.sh
+elif [[ $1 = "-ddos" ]]; then
+    clear
+    bash /etc/WolverineFramework/Scripts/DDOS_ICMP.sh
+elif [[ $1 = "-bruteforce "]]; then
+    clear
+    bash /etc/WolverineFramework/Scripts/BruteforceChoice.sh
+elif [[ $1 = "-mitm"]]; then
+    clear  
+    bash /etc/WolverineFramework/Scripts/Ettercap.sh
+elif [[ $1 = "-phoneinfoga"]]; then
+    clear  
+    bash /etc/WolverineFramework/Scripts/phoneinfoga
 elif [[ $1 = "-h" ]]; then
     clear
     echo " Usage : wolverine [options]"
@@ -15,8 +27,11 @@ elif [[ $1 = "-h" ]]; then
     echo " nothing -> Will launch Wolverine"
     echo " -q -> Will launch Wolverine in quiet mode (no logo)"
     echo " -h -> Will show you available options"
+    echo " -ddos -> Will launch DDoS choice"
+    echo " -bruteforce -> Will launch bruteforce choice"
+    echo " -mitm -> Will launch MiTM choice"
+    echo " -phoneinfoga -> Will launch phoneinfoga choice"
 else
     clear
     echo "wrong argument, type <wolverine -h> to see available arguments"
 fi
-
