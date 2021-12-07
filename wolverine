@@ -10,19 +10,27 @@ elif [[ $1 = "-q" ]]; then
     bash /etc/WolverineFramework/Wolverine_quiet.sh
 elif [[ $1 = "-ddos" ]]; then
     clear
+    tput setaf 1
     cat /etc/WolverineFramework/logo_quiet
+    tput setaf 7
     bash /etc/WolverineFramework/Scripts/DDOS_ICMP.sh
 elif [[ $1 = "-bruteforce" ]]; then
     clear
+    tput setaf 1
     cat /etc/WolverineFramework/logo_quiet
+    tput setaf 7
     bash /etc/WolverineFramework/Scripts/BruteforceChoice.sh
 elif [[ $1 = "-mitm" ]]; then
     clear  
+    tput setaf 1
     cat /etc/WolverineFramework/logo_quiet
+    tput setaf 7
     bash /etc/WolverineFramework/Scripts/Ettercap.sh
 elif [[ $1 = "-phoneinfoga" ]]; then
     clear  
+    tput setaf 1
     cat /etc/WolverineFramework/logo_quiet
+    tput setaf 7
     bash /etc/WolverineFramework/Scripts/phoneinfoga
 elif [[ $1 = "-h" ]]; then
     clear
