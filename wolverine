@@ -10,15 +10,19 @@ elif [[ $1 = "-q" ]]; then
     bash /etc/WolverineFramework/Wolverine_quiet.sh
 elif [[ $1 = "-ddos" ]]; then
     clear
+    cat logo_quiet
     bash /etc/WolverineFramework/Scripts/DDOS_ICMP.sh
 elif [[ $1 = "-bruteforce" ]]; then
     clear
+    cat logo_quiet
     bash /etc/WolverineFramework/Scripts/BruteforceChoice.sh
 elif [[ $1 = "-mitm" ]]; then
     clear  
+    cat logo_quiet
     bash /etc/WolverineFramework/Scripts/Ettercap.sh
 elif [[ $1 = "-phoneinfoga" ]]; then
     clear  
+    cat logo_quiet
     bash /etc/WolverineFramework/Scripts/phoneinfoga
 elif [[ $1 = "-h" ]]; then
     clear
