@@ -118,7 +118,7 @@ then
 	tput setaf 7
 	echo "----------------------------------------------------------------"
 	echo "Launching PhoneInfoga..."
-	bash /etc/WolverineFramework/Scripts/phoneinfoga scan -n $numero
+	.//etc/WolverineFramework/Scripts/phoneinfoga scan -n $numero
 
 # WPSCAN PART
 elif [ $Reponse = 7 ]
