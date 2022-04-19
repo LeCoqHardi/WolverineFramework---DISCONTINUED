@@ -56,4 +56,3 @@ Twitch : https://www.twitch.tv/LeCoqHardi
 
 - If you have the error "Unable to Locate package metasploit-framework", use this command -> "wget https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb && chmod +x msfinstall &&./msfinstall "
 - Right now Patator isn't available on ArchLinux, when it is, i'll add it to the script Install_arch.sh
-- All the games are not in ArchLinux, when they are, i'll add them to the script Install_arch.sh
